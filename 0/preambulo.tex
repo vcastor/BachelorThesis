@@ -1,0 +1,85 @@
+\documentclass[12pt,letterpaper,oneside]{book}
+\usepackage[spanish, activeacute]{babel}
+\decimalpoint
+\usepackage{graphicx}
+\usepackage{t1enc}
+\usepackage{appendix}
+\usepackage{epsfig}
+\usepackage[version=3]{mhchem}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{braket}
+\usepackage{mathrsfs}
+\usepackage{ctable}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage[utf8]{inputenc}%[latin1]%
+\usepackage{siunitx}
+\sisetup{
+group-minimum-digits = 4
+%separate-uncertainty
+}
+\DeclareSIUnit{\calorie}{cal}
+\usepackage{nicefrac}
+\usepackage{xfrac}
+\usepackage{blindtext}
+\usepackage{hyperref}
+\definecolor{zaffre}{rgb}{0.0, 0.08, 0.66}
+\definecolor{slateblue}{rgb}{0.42, 0.35, 0.8}
+\definecolor{royalazure}{rgb}{0.0, 0.22, 0.66}
+\definecolor{smalt(darkpowderblue)}{rgb}{0.0, 0.2, 0.6}
+\definecolor{antiquefuchsia}{rgb}{0.57, 0.36, 0.51}
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+\hypersetup{
+    colorlinks=true,
+    linktoc=all,
+    linkcolor=smalt(darkpowderblue),
+%    linktocpage=true,
+    citecolor=antiquefuchsia,
+    pdfauthor={VCastor},
+    pdftitle={Estudios Topológicos de la Densidad Electrónica en Cúmulos de Agua}
+}
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{fancyvrb}
+\usepackage{adjustbox}
+
+\addtolength{\voffset}{0.0cm}
+\addtolength{\hoffset}{0.0cm}
+\addtolength{\textwidth}{0.0cm}
+\addtolength{\textheight}{0.0cm}
+\addtolength{\marginparwidth}{1.0cm}
+
+\renewcommand{\baselinestretch}{1.5}
+
+\usepackage{anysize}
+\marginsize{2.5cm}{2.5cm}{2.0cm}{2.0cm} 
+
+\usepackage[sort&compress]{natbib}
+\bibliographystyle{unsrt}
+
+\addto\captionsspanish{
+\renewcommand\tablename{Tabla}}
+\renewcommand{\appendixname}{Ap\'endices}
+\renewcommand{\appendixtocname}{Ap\'endices}
+\renewcommand{\appendixpagename}{Ap\'endices}
+
+\usepackage{multicol}
+
+\widowpenalty=500
+\clubpenalty=500
+
+\newcommand{\HF}{\mathrm{HF}}
+\newcommand{\Ha}{\widehat{H}}
+\newcommand{\T}{\widehat{T}}
+\newcommand{\SD}{\mathrm{SD}}
+\newcommand{\CC}{\mathrm{CC}}
+
+\pagestyle{fancy}
+%\lhead{}
+\fancyhead[RO,LE]{}
+\lhead[]{\chaptername}
+\rhead[]{\thepage}
+\fancyfoot[]{}
